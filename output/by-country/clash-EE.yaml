@@ -20,7 +20,7 @@ proxies:
       Host: 141.0.187.16
 - name: 🇪🇪 EE 02 - xiaohe
   type: vless
-  server: 77.72.85.246
+  server: 77.72.85.247
   port: 8443
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
   udp: true
@@ -78,7 +78,7 @@ proxies:
   client-fingerprint: firefox
 - name: 🇪🇪 EE 07 - xiaohe
   type: vless
-  server: 194.26.141.148
+  server: 77.72.85.246
   port: 8443
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
   udp: true
