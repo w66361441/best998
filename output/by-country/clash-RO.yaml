@@ -42,6 +42,14 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇷🇴 RO 06 - xiaohe
+  type: vless
+  server: roxnsk.color-shop.ir
+  port: 8080
+  uuid: e3026ffb-cde6-4cfe-b4b7-f76d5264e969
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,6 +60,7 @@ proxy-groups:
   - 🇷🇴 RO 03 - xiaohe
   - 🇷🇴 RO 04 - xiaohe
   - 🇷🇴 RO 05 - xiaohe
+  - 🇷🇴 RO 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +71,6 @@ proxy-groups:
   - 🇷🇴 RO 03 - xiaohe
   - 🇷🇴 RO 04 - xiaohe
   - 🇷🇴 RO 05 - xiaohe
+  - 🇷🇴 RO 06 - xiaohe
 rules:
 - MATCH,PROXIES
