@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
   type: vmess
   server: 132.145.80.230
@@ -42,7 +42,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: vless
   server: 151.245.106.49
@@ -54,7 +54,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
   type: vless
   server: 151.245.106.49
