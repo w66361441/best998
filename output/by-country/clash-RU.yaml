@@ -5,12 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  type: ss
-  server: 185.22.153.117
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  type: vless
+  server: 172.67.148.84
+  port: 443
+  uuid: ac532d5e-2b9c-45a2-85df-37b3b74cffde
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+  network: ws
+  ws-opts:
+    path: /9dffa10cc2d3b317?ed=2560
+    headers:
+      Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: ss
   server: 38.60.223.125
