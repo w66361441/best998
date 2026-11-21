@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: unlik.club
+  network: ws
+  ws-opts:
+    path: /static/telemetry/3c9aaef00005/
+    headers:
+      Host: tochkacdn.top
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  type: vless
   server: 136.148.83.69
   port: 443
   uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
@@ -13,15 +27,17 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: ss
-  server: 90.156.203.62
-  port: 5112
-  cipher: chacha20-ietf-poly1305
-  password: VVlAff77CnAU43Aoc5j15Y
-  udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: vless
+  server: 185.151.243.186
+  port: 443
+  uuid: cf4d2594-77a8-0001-b99e-73ae8fb954eb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: piodr-ru-74sel.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  type: vless
   server: 136.148.83.69
   port: 443
   uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
@@ -29,18 +45,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  type: vless
-  server: 136.234.9.19
-  port: 443
-  uuid: d92038b6-b470-4267-9c69-2c649bf3f4a4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 43bHrvqzL5Sw8lvtDSE3LAlp_0WbixVc7nYcAf17bhg
-  servername: 8ba6c3t.nl2.h1clayd.click
-  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   type: vless
   server: 136.148.83.69
@@ -51,6 +55,20 @@ proxies:
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: unlik.club
+  network: ws
+  ws-opts:
+    path: /static/telemetry/3c9aaef00005/
+    headers:
+      Host: tochkacdn.top
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   type: vless
   server: 147.45.175.81
   port: 443
@@ -64,15 +82,6 @@ proxies:
     path: /wsru
     headers:
       Host: xsru2.freeddns.org
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
 proxy-groups:
 - name: PROXIES
   type: select
